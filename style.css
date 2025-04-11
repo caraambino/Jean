@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(44, 44, 44);
+}
+body{
+    background: rgb(0, 0, 0);
+    padding: 15px;
+}
+section{
+    max-width:400px ;
+}
+input{
+    width: 90%;
+    margin: auto;
+}
+label{
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 10px 0;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: 800;
+    text-shadow: 0 0 25px black;
+}
+#texto{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    text-shadow: 0 0 15px white;
+}
+.seccion2{
+    background: white;
+    padding: 10px;
+    height: 300px;
+    border-radius: 15px;
+    border: 2px solid black;
+    margin-top: 15px;
+}
+.div{
+    font-family: 'Segoe UI';
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.div p{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    padding: 0 35px;
+    text-shadow: 0 0 15px rgb(0, 0, 0);
+}
+.div h1{
+    font-size: 35px;
+}
+.div button, #seccion3 button{
+    cursor: pointer;
+    padding: 5px 25px;
+    border-radius: 10px;
+    transition: .2s;
+}
+.div button:hover, #seccion3 button:hover{
+    transform: scale(1.1);
+}
+#seccion3{
+    font-size: 25px;
+    margin-top: 15px;
+    background: white;
+    text-align: center;
+    padding: 0 15px;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+#seccion3 p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+#seccion3 button{
+    margin: 15px 0;
+}
